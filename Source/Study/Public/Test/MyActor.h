@@ -57,8 +57,3 @@ public:
 	virtual void ComponentsToSave_Implementation(TArray<UActorComponent*>& Components);
 
 };
-<<<<<<< HEAD
-
-// test git
-=======
->>>>>>> 6da30d0349556d164c16c656e01414961a133d16
