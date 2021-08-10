@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"name": "Study",
+			"path": "."
+		},
+		{
+			"name": "UE4",
+			"path": "C:\\UnrealEngine\\UE_4.26"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"C_Cpp.default.forcedInclude": [
+			"${default}",
+			"C:\\UnrealProjects\\Study\\Intermediate\\Build\\Win64\\UE4Editor\\Development\\Study\\Definitions.Study.h",
+			"C:\\UnrealProjects\\Study\\Intermediate\\Build\\Win64\\StudyEditor\\Development\\Engine\\SharedPCH.Engine.ShadowErrors.h"
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	}
+}
