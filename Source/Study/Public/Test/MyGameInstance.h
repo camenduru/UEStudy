@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Engine/GameInstance.h"
-#include "MyGameInstanceInterface.h"
+#include "Test/MyGameInstanceInterface.h"
 #include "MyGameInstance.generated.h"
 
 /**

@@ -27,6 +27,11 @@ void UMyGameInstance::Init()
 	DisplayDebugMessage(FString::FromInt(State.EffectsQuality));
 	DisplayDebugMessage(FString::FromInt(State.FoliageQuality));
 
+	//IConsoleManager::Get().RegisterConsoleVariable(TEXT("Game.IconSet"), TEXT("xb1"), TEXT(""));
+	//IConsoleManager::Get().RegisterConsoleVariable(TEXT("Camera.FOV"), 90.0f, TEXT(""));
+	//IConsoleManager::Get().RegisterConsoleVariable(TEXT("Character.GravityScale"), 1.0f, TEXT(""));
+	//IConsoleManager::Get().RegisterConsoleVariable(TEXT("Character.WalkSpeed"), 600.0f, TEXT(""));
+	//IConsoleManager::Get().RegisterConsoleVariable(TEXT("Input.Sensitivity"), 2.5f, TEXT(""));
 }
 
 void UMyGameInstance::IsGameStarted_Implementation()
