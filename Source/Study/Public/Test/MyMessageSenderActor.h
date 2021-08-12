@@ -6,6 +6,9 @@
 #include "GameFramework/Actor.h"
 #include "MyMessageSenderActor.generated.h"
 
+UDELEGATE()
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FMyMessageSenderActorEventDispatcher_MulticastDelegate);
+
 UCLASS()
 class STUDY_API AMyMessageSenderActor : public AActor
 {
@@ -15,12 +18,10 @@ public:
 	// Sets default values for this actor's properties
 	AMyMessageSenderActor();
 
+	UPROPERTY(BlueprintAssignable)
+	FMyMessageSenderActorEventDispatcher_MulticastDelegate MyMessageSenderActorEventDispatcher;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
 };
